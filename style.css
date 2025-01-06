@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.phone{
+    margin: 10px;
+    width: 350px;
+    height: 600px;
+    background-image: url(./phone_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -45px;
+}
+
+.card{
+    height: 550px;
+}
+.login{
+    height: 360px;
+    width: 320px;
+    margin: 10px;
+    border-radius: 1px;
+    border-color: rgb(194, 194, 194);
+    border-style:groove;
+    text-align: center;
+}
+.instalogo{
+width: 200px;
+height: 90px;
+margin-top: 20px;
+}
+.login input{
+    margin-top: 10px;
+    width: 230px;
+    height: 30px;
+    text-indent: 5px;
+    background-color: rgb(250, 250, 250);
+    border-color: rgb(222, 221, 221);
+}
+.btn{
+    margin-top: 10px;
+}
+.btn button{
+    width: 230px;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(77, 101, 218);
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb img{
+    width: 25px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.fb a{
+    margin-top: 5px;
+    color: rgb(39, 140, 184);
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-indent: 5px;
+    text-decoration: none;
+}
+.forget{
+    color: rgb(7, 7, 106);
+    text-decoration: none;
+}
+.signup{
+    width: 320px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 1px;
+    border-color:  rgb(194, 194, 194);
+    border-style:groove;
+    text-align: center;
+}
+.signup h4{
+    margin-top: 10px;
+}
+.color{
+    color: rgb(39, 140, 184);
+    text-decoration: none;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(194, 194, 194);
+}
+.lline{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(194, 194, 194);
+}
+.outside{
+    width: 320px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 320px;
+    height: 40px;
+}
+.google a{
+    display: flex;
+}
+.btm{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    
+}
+.btm a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
